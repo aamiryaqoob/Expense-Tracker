@@ -1,6 +1,6 @@
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
-
+// ExpenseItem data
 function ExpenseItem(props) {
   
   return (
