@@ -4,7 +4,7 @@ import ExpenseDate from "./ExpenseDate";
 const ExpenseItem = (props) => {
   
   const clickHandler = (props) => {
-    console.log("Clicked!!!!");
+    console.log("Clicked!!");
   }
   return (
     <div className="expense-item">
