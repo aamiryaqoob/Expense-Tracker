@@ -1,6 +1,7 @@
+import 
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
-// ExpenseItem data
+
 const ExpenseItem = (props) => {
   
   const clickHandler = (props) => {
