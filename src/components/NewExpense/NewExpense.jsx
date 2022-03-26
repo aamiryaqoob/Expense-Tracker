@@ -1,7 +1,7 @@
 import react from "react";
 import './NewExpense.css';
 import expenseForm from "./ExpenseForm";
-
+// This is input function
 const newExpense = () => {
 
     return
