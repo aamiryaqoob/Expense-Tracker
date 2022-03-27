@@ -1,6 +1,7 @@
 import react from "react";
 import './NewExpense.css';
 
+// This is expenseForm
 const expenseForm = () => {
 
 return( 
