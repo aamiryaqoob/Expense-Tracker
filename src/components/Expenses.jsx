@@ -1,5 +1,4 @@
 
-// This expenses data
 
 const Expenses = (props) => {
 
