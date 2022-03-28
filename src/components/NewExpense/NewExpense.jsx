@@ -10,5 +10,6 @@ const newExpense = () => {
         </div>
 
 };
+// newexpense function end
 
 export default newExpense;
