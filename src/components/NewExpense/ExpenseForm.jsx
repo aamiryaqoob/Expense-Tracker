@@ -1,7 +1,7 @@
 import react from "react";
 import './NewExpense.css';
 
-// This is expenseForm function
+// This is expenseForm function data
 const expenseForm = () => {
 
 return( 
@@ -26,6 +26,6 @@ return(
 </form>
 );
 }
-// ExpenseForm end
+// Expenseform end
 
 export default expenseForm;
