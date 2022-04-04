@@ -2,7 +2,6 @@ import ExpenseItem from "./components/ExpenseItem";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
-// expenses Dummy data
 
 function App() {
   const expenses = [
@@ -26,8 +25,6 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  
-  // Dummy data End
 
   return (
     <div>
