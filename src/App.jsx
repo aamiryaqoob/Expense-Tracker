@@ -1,5 +1,7 @@
 import ExpenseItem from "./components/ExpenseItem";
 
+import NewExpense from "./components/NewExpense/NewExpense";
+
 // expenses Dummy data
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <newExpense />
+      <NewExpense />
 
       <ExpenseItem
         title={expenses[0].title}
