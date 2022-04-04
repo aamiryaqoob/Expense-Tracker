@@ -1,5 +1,4 @@
 import ExpenseItem from "./components/ExpenseItem";
-import newExpense from "./components/NewExpense/NewExpense";
 
 // expenses Dummy data
 
