@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+import ExpensesFilter from "./components/NewExpense/ExpenseFilter";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
@@ -33,7 +34,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
-
+      <ExpensesFilter />
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
