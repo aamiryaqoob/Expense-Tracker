@@ -2,7 +2,6 @@ import React from 'react';
 
 import './ExpensesFilter.css';
 
-// Filter Function
 const ExpensesFilter = () => {
     const dropdownChangeHandler = (event) => {
         console.log(event.target.value);
