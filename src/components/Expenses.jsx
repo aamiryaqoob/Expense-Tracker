@@ -2,6 +2,8 @@ import ExpenseItem from "./ExpenseItem";
 
 import './Expenses.css';
 
+// EXpenses data
+
 const Expenses = (props) => {
     return <div className="expenses">
         <ExpenseItem
