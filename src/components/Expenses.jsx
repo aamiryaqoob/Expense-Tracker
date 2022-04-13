@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 
 import './Expenses.css';
 
-// EXpenses data
+// Expenses data
 
 const Expenses = (props) => {
     return <div className="expenses">
