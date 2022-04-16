@@ -2,7 +2,6 @@ import ExpenseItem from "./ExpenseItem";
 
 import './Expenses.css';
 
-// Expenses Funcion data
 const Expenses = (props) => {
     return <div className="expenses">
         <ExpenseItem
@@ -26,7 +25,6 @@ const Expenses = (props) => {
         date={props.items[3].date}
       />
     </div>
-    // div end
 
 }
 
