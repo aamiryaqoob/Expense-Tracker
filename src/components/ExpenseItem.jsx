@@ -7,7 +7,7 @@ const ExpenseItem = (props) => {
   
   const clickHandler = (props) => {
     setTitle('Updated!')
-    // console.log("Clicked!!!!");
+    // console.log("Clicked!!");
   }
   return (
     <div className="expense-item">
