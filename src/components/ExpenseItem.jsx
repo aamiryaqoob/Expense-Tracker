@@ -2,6 +2,8 @@ import react, { useState } from 'react';
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 
+// ExpenseItem
+
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
   
