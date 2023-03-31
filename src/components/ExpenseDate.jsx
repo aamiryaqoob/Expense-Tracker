@@ -1,6 +1,5 @@
 import './ExpenseDate.css';
 
-// "Date function"
 
 const ExpenseDate = (props) => {
     
