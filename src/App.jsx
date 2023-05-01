@@ -1,5 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
-import ExpensesFilter from "./components/NewExpense/ExpenseFilter";
+import ExpensesFilter from "./components/Expenses/ExpenseFilter";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
