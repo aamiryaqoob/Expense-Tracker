@@ -1,5 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
-import ExpensesFilter from "./components/Expenses/ExpenseFilter";
+import ExpensesFilter from "./components/Expenses/ExpensesFilter";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
-      <ExpensesFilter />
+      
       <Expenses items={expenses}/>
     </div>
   );
